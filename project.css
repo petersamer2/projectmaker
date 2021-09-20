@@ -1,0 +1,282 @@
+.home{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 50px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+
+}
+
+.navbar img{
+display: flex;
+padding-left: 10px;
+
+}
+
+.navbar .logo{
+    width: 60%;
+    padding-right: 50px;
+
+}
+
+.logo ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+
+
+}
+
+.logo a{
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+
+
+}
+.logo a:hover{
+    color: #20c997;
+}
+
+#home .home{
+    background-image: url(../assiment5petersameersun-wed6-10/img/testimonial/intro-bg.jpg);
+    height: 100vh;
+
+
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+}
+
+.background h3{
+
+    color: white;
+    font-size: 30px;
+
+}
+
+.background p{
+    color: white;
+    font-size: 30px;
+
+}
+
+
+
+
+.background h1{
+     color: white;
+     font-size: 70px;
+}
+
+.background h1::after{
+content: "";
+animation: typing 10s linear infinite;
+
+}
+
+@keyframes typing{
+    0%{
+        content: "S|";
+    }
+
+    2%{
+        content: "Sim|";
+    }
+    4%{
+        content: "Simon|";
+    }
+    6%{
+        content: "Simone |";
+    }
+    8%{
+        content: "Simone ol|";
+    }
+    10%{
+        content: "Simone oliv|";
+    }
+    12%{
+        content: "Simone olivir|";
+    }
+    13%{
+        content: "Simone olivir|";
+    }
+    14%{
+        content: "Simone oliv|";
+    }
+    16%{
+        content: "Simone ol|";
+    }
+    18%{
+        content: "Simone |";
+    }
+    20%{
+        content: "Simon|";
+    }
+    22%{
+        content: "Sim|";
+    }
+    24%{
+        content: "S|";
+    }
+    26%{
+        content: "a |";
+    }
+    28%{
+        content: "a Fr|";
+    }
+    30%{
+        content: "a Free|";
+    }
+    32%{
+        content: "a Freela|";
+    }
+    34%{
+        content: "a Freelanc|";
+    }
+    36%{
+        content: "a Freelancer|";
+    }
+    38%{
+        content: "a Freelancer|";
+    }
+    40%{
+        content: "a Freelancer|";
+    }
+    42%{
+        content: "a Freelanc|";
+    }
+    44%{
+        content: "a Freela|";
+    }
+    46%{
+        content: "a Free|";
+    }
+    48%{
+        content: "a Fr|";
+    }
+    50%{
+        content: "a |";
+    }
+    52%{
+        content: "a Ph|";
+    }
+    54%{
+        content: "a Phot|";
+    }
+    56%{
+        content: "a Photog|";
+    }
+    58%{
+        content: "a Photogra|";
+    }
+    60%{
+        content: "a Photograph|";
+    }
+    61%{
+        content: "a Photographer|";
+    }
+    62%{
+        content: "a Photographer|";
+    }
+    64%{
+        content: "a Photographer|";
+    }
+    66%{
+        content: "a Photograph|";
+    }
+    68%{
+        content: "a Photogra|";
+    }
+    70%{
+        content: "a Photog|";
+    }
+    72%{
+        content: "a Phot|";
+    }
+    74%{
+        content: "a Ph|";
+    }
+    76%{
+        content: "a |";
+    }
+    78%{
+        content: "a De|";
+    }
+    80%{
+        content: "a Desi|";
+    }
+    81%{
+        content: "a Design|";
+    }
+    82%{
+        content: "a Designer|";
+    }
+    84%{
+        content: "a Designer|";
+    }
+    86%{
+        content: "a Designer|";
+    }
+    88%{
+        content: "a Design|";
+    }
+    90%{
+        content: "a Desi|";
+    }
+    92%{
+        content: "a De|";
+    }
+    94%{
+        content: "a |";
+    }
+    96%{
+        content: "a|";
+    }
+    98%{
+        content: "|";
+    }
+    100%{
+        content: "|";
+    }
+
+}
+
+
+
+.background button{
+     width: 150px;
+     height: 50px;
+     margin-top: 30px;
+     border-radius: 50px;
+     background-color: transparent;
+     color: #20c997;
+     border-color: #20c997;
+
+}
+
+.background button:hover{
+     background-color: #20c997;
+     color: white;
+     transition-duration: 0.5s;
+}
